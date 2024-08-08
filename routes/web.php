@@ -7,7 +7,7 @@ use App\Http\Controllers\HomeController;
 
 
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', HomeController::class);
 
 
 // //ruta para mostrar el listado de registro
